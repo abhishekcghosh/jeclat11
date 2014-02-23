@@ -1,0 +1,11 @@
+create table irina_general(attribname varchar(64) not null, attribvalue varchar(64) not null);
+
+create table irina_hitsrecord(hitindex bigint(20) not null auto_increment primary key, hittimestamp datetime, hitip varchar(16) not null);
+
+create table irina_feedback(fid bigint(20) not null auto_increment primary key, name varchar(128) not null, emailid varchar(256), timestamp datetime not null, message varchar(1024) not null);
+
+create table irina_alumni(aid bigint(10) not null auto_increment primary key, name varchar(256) not null, collegenick varchar(128), yearofpassout varchar(5) not null, department varchar(4) not null, company varchar(256), address varchar(1024) not null, phone varchar(16) not null, emailid varchar(256) not null, attendingstatus varchar(6) not null );
+
+create table irina_forum(pid bigint(20) not null auto_increment primary key, thid bigint(10) not null, level int(5), dateofentry datetime not null, author varchar(256) not null, content longtext not null, editlocked char(1) not null);
+
+create table irina_bandit(rid int(4) not null primary key auto_increment, bandname varchar(256) not null, placefrom varchar(1024) not null, numberofmembers int(2) not null, representative varchar(256) not null, contact varchar(20) not null);

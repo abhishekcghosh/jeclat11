@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<slideshow>
+	<photo image="icons/schedule.png" url="jclt-schedule.php" target="_self" info="Schedule"/>
+	<photo image="icons/proshows.png" url="jclt-proshows.php" target="_self" info="ProShows"/>
+	<photo image="icons/alumni.png" url="jclt-alumni.php" target="_self" info="Alumni"/>
+	<photo image="icons/contactus.png" url="jclt-contactus.php" target="_self" info="Contact Us"/>
+	<photo image="icons/feedback.png" url="jclt-feedback.php" target="_self" info="Feedback"/>
+	<photo image="icons/forum.png" url="jclt-forum.php" target="_self" info="Forum"/>
+	<photo image="icons/sponsors.png" url="jclt-sponsors.php" target="_self" info="Sponsors"/>
+	<photo image="icons/downloads.png" url="jclt-downloads.php" target="_self" info="Downloads"/>
+	<photo image="icons/gallery.png" url="jclt-gallery.php" target="_self" info="Gallery"/>
+	<photo image="icons/home.png" url="jclt-home.php" target="_self" info="Home"/>
+	<photo image="icons/events.png" url="jclt-events.php" target="_self" info="Events"/>
+</slideshow>
